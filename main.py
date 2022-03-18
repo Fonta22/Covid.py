@@ -9,7 +9,6 @@ emoji_url = 'https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/by-
 r = requests.get(url)
 e = requests.get(emoji_url)
 
-
 def codesList():
     res = requests.get(country_url)
     json = res.json()
