@@ -23,7 +23,7 @@ def codesList():
         else:
             full = f"{cc} {name}"
         
-        countryCodes.append(full)
+        countryCodes.append(f"- {full}")
 
     sortedCodes = sorted(countryCodes)
 
