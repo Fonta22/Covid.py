@@ -10,7 +10,8 @@ Then, inside the project's folder you'll have to run the **main Python file**, `
 
 ## Example
 Example of the usage of the program.
-Searched for [Poland](https://en.wikipedia.org/wiki/Poland) the day 18/03/2022.
+
+> Searched for [Poland](https://en.wikipedia.org/wiki/Poland) the day `18/03/2022`.
 
 ```powershell
 $ python main.py
