@@ -9,6 +9,8 @@ Then, inside the project's folder you'll have to run the **main Python file**, `
 > In case you don't know which is the code of the country you want, here you have a list of the avaiable countries and it's country codes: [CCodes.md](https://github.com/Fonta22/Covid.py/blob/main/docs/CCodes.md)
 
 ## Example
+Example of the usage of the program.
+Searched for [Poland](https://en.wikipedia.org/wiki/Poland) the day 18/03/2022.
 
 ```powershell
 $ python main.py
