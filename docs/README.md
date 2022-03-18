@@ -6,7 +6,7 @@ Firstable, you'll need to have installed [Python](https://www.python.org/downloa
 
 Then, inside the project's folder you'll have to run the **main Python file**, `main.py`. The program will ask you for the **country code** of the country that you want to get the stats of.
 
-> In case you don't know which is the code of the country you want, here you have a list of the avaiable countries and it's country codes: [CCodes.md](#)
+> In case you don't know which is the code of the country you want, here you have a list of the avaiable countries and it's country codes: [CCodes.md](https://github.com/Fonta22/Covid.py/blob/main/docs/CCodes.md)
 
 ## Example
 
