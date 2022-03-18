@@ -1,4 +1,5 @@
 import requests
+import datetime
 
 code = input('\nEnter country code: ').lower()
 url = f'https://corona-stats.online/{code}?format=json'
@@ -43,6 +44,7 @@ else:
     eres = e.json()
 
 flag = eres[code.upper()]['emoji']
+date = datetime.date.strftime(datetime.date.today(), "%d/%m/%Y")
 
 country = response['country']
 cases = response['cases']
@@ -55,6 +57,8 @@ critical = response['critical']
 casesPerOneMillion = response['casesPerOneMillion']
 
 print(f"""
+\033[93m{country.upper()}\033[00m SARS-CoV-2 CASES [\033[96m{date}\033[00m]
+
 Country         : {country} {flag}
 Total Cases     : {cases}
 New Cases ▲     : {todayCases}
